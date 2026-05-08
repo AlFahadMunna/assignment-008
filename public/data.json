@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Forest",
+    "author": "Emma Carter",
+    "description": "A thrilling story about a hidden village inside a mysterious forest.",
+    "category": "Story",
+    "available_quantity": 8,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+  },
+  {
+    "id": 2,
+    "title": "Mastering JavaScript",
+    "author": "Daniel Brooks",
+    "description": "A complete guide to modern JavaScript for beginners and professionals.",
+    "category": "Tech",
+    "available_quantity": 12,
+    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+  },
+  {
+    "id": 3,
+    "title": "Beyond the Stars",
+    "author": "Sophia Lee",
+    "description": "Explore the mysteries of galaxies, planets, and black holes.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564"
+  },
+  {
+    "id": 4,
+    "title": "The Lost Kingdom",
+    "author": "Michael Stone",
+    "description": "An epic fantasy story filled with adventure and ancient secrets.",
+    "category": "Story",
+    "available_quantity": 10,
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f"
+  },
+  {
+    "id": 5,
+    "title": "React for Developers",
+    "author": "Sarah Johnson",
+    "description": "Learn how to build fast and modern web applications using React.",
+    "category": "Tech",
+    "available_quantity": 7,
+    "image_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+  },
+  {
+    "id": 6,
+    "title": "The Human Brain",
+    "author": "Dr. Alan Cooper",
+    "description": "A fascinating journey into how the brain works and thinks.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url": "https://images.unsplash.com/photo-1532012197267-da84d127e765"
+  },
+  {
+    "id": 7,
+    "title": "Whispers of the Ocean",
+    "author": "Lily Morgan",
+    "description": "A heartfelt story about friendship, love, and discovery by the sea.",
+    "category": "Story",
+    "available_quantity": 9,
+    "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d"
+  },
+  {
+    "id": 8,
+    "title": "Next.js in Action",
+    "author": "Chris Walker",
+    "description": "Build scalable and optimized applications with Next.js.",
+    "category": "Tech",
+    "available_quantity": 11,
+    "image_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
+  },
+  {
+    "id": 9,
+    "title": "Quantum World",
+    "author": "Nina Patel",
+    "description": "An introduction to quantum physics explained in simple language.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://images.unsplash.com/photo-1507413245164-6160d8298b31"
+  },
+  {
+    "id": 10,
+    "title": "The Midnight Letter",
+    "author": "Oliver James",
+    "description": "A mystery novel centered around a forgotten letter and hidden truth.",
+    "category": "Story",
+    "available_quantity": 13,
+    "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da"
+  },
+  {
+    "id": 11,
+    "title": "Cyber Security Basics",
+    "author": "Kevin Smith",
+    "description": "Learn the foundations of cyber security and online protection.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87"
+  },
+  {
+    "id": 12,
+    "title": "Future of AI",
+    "author": "Rachel Adams",
+    "description": "Discover how artificial intelligence is changing the modern world.",
+    "category": "Science",
+    "available_quantity": 15,
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+  }
+]
