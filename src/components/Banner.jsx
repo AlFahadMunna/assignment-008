@@ -6,7 +6,7 @@ import banner from "@/assets/banner-logo.jpg";
 
 const Banner = () => {
   return (
-    <div className="hero min-h-[85vh] bg-base-200">
+    <div className="hero min-h-[85vh] bg-base-200 container mx-auto">
       <div className="hero-content flex-col-reverse lg:flex-row-reverse gap-10 lg:gap-20 max-w-7xl mx-auto px-6 py-10">
         {/* Banner Image */}
         <div className="w-full lg:w-1/2">
