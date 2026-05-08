@@ -1,8 +1,11 @@
 import Link from "next/link";
+import logo from "@/assets/nav-logo.png";
+import Image from "next/image";
 
 const Navbar = () => {
+  const login = true;
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 container mx-auto shadow-sm h-12">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,7 +40,10 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <Link href={"/"}>
+          {" "}
+          <Image src={logo} alt="nav-logo" width={160} />{" "}
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -53,7 +59,16 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        {login ? (
+          <div className="avatar flex gap-4">
+            <div className="ring-primary ring-offset-base-100 w-10 rounded-full ring-2 ring-offset-2">
+              <img src="https://img.daisyui.com/images/profile/demo/spiderperson@192.webp" />
+            </div>
+            <button className="btn">Logout</button>
+          </div>
+        ) : (
+          <button className="btn">Login</button>
+        )}
       </div>
     </div>
   );
