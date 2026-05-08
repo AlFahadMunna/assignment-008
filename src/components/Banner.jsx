@@ -1,6 +1,8 @@
 // components/Banner.jsx
 
+import Image from "next/image";
 import Link from "next/link";
+import banner from "@/assets/banner-logo.jpg";
 
 const Banner = () => {
   return (
@@ -8,8 +10,8 @@ const Banner = () => {
       <div className="hero-content flex-col-reverse lg:flex-row-reverse gap-10 lg:gap-20 max-w-7xl mx-auto px-6 py-10">
         {/* Banner Image */}
         <div className="w-full lg:w-1/2">
-          <img
-            src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+          <Image
+            src={banner}
             alt="Books Banner"
             className="w-full rounded-3xl shadow-2xl object-cover h-[250px] sm:h-[350px] md:h-[450px]"
           />
