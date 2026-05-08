@@ -2,109 +2,109 @@
   {
     "id": 1,
     "title": "The Silent Forest",
-    "author": "Emma Carter",
-    "description": "A thrilling story about a hidden village inside a mysterious forest.",
+    "author": "Ava Rahman",
+    "description": "A mysterious forest hides secrets that change the lives of a small village forever.",
     "category": "Story",
-    "available_quantity": 8,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+    "available_quantity": 12,
+    "image_url": "https://m.media-amazon.com/images/I/71IimgF9FfL._SY425_.jpg"
   },
   {
     "id": 2,
-    "title": "Mastering JavaScript",
-    "author": "Daniel Brooks",
-    "description": "A complete guide to modern JavaScript for beginners and professionals.",
+    "title": "Learning JavaScript Basics",
+    "author": "John Carter",
+    "description": "A beginner-friendly guide to understanding JavaScript fundamentals.",
     "category": "Tech",
-    "available_quantity": 12,
-    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+    "available_quantity": 8,
+    "image_url": "https://m.media-amazon.com/images/I/61RjcdmB-BL._SY342_.jpg"
   },
   {
     "id": 3,
-    "title": "Beyond the Stars",
-    "author": "Sophia Lee",
-    "description": "Explore the mysteries of galaxies, planets, and black holes.",
+    "title": "The Quantum World",
+    "author": "Dr. Sarah Khan",
+    "description": "An introduction to the fascinating concepts of quantum physics.",
     "category": "Science",
     "available_quantity": 5,
-    "image_url": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564"
+    "image_url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1489908670i/34622452.jpg"
   },
   {
     "id": 4,
-    "title": "The Lost Kingdom",
-    "author": "Michael Stone",
-    "description": "An epic fantasy story filled with adventure and ancient secrets.",
+    "title": "Broken Dreams",
+    "author": "Nusrat Jahan",
+    "description": "A touching story of love, loss, and hope in modern life.",
     "category": "Story",
     "available_quantity": 10,
-    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f"
+    "image_url": "https://pup-assets.imgix.net/onix/images/9780691154534.jpg?w=410&auto=format"
   },
   {
     "id": 5,
-    "title": "React for Developers",
-    "author": "Sarah Johnson",
-    "description": "Learn how to build fast and modern web applications using React.",
+    "title": "Mastering React",
+    "author": "David Miller",
+    "description": "Advanced concepts and real-world applications of React.js.",
     "category": "Tech",
-    "available_quantity": 7,
-    "image_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+    "available_quantity": 6,
+    "image_url": "https://m.media-amazon.com/images/I/81EUH55ABRL._SY425_.jpg"
   },
   {
     "id": 6,
-    "title": "The Human Brain",
-    "author": "Dr. Alan Cooper",
-    "description": "A fascinating journey into how the brain works and thinks.",
+    "title": "Space Exploration 101",
+    "author": "Neil Armstrong Jr.",
+    "description": "A beginner's guide to understanding space missions and discoveries.",
     "category": "Science",
-    "available_quantity": 6,
-    "image_url": "https://images.unsplash.com/photo-1532012197267-da84d127e765"
+    "available_quantity": 9,
+    "image_url": "https://m.media-amazon.com/images/I/91O+h3djJRL._SY385_.jpg"
   },
   {
     "id": 7,
-    "title": "Whispers of the Ocean",
-    "author": "Lily Morgan",
-    "description": "A heartfelt story about friendship, love, and discovery by the sea.",
+    "title": "Whispers of the Night",
+    "author": "Rafiul Islam",
+    "description": "A thrilling mystery that unfolds in the darkness of the night.",
     "category": "Story",
-    "available_quantity": 9,
-    "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d"
+    "available_quantity": 7,
+    "image_url": "https://files.idyllic.app/files/static/3172979?width=640&optimizer=image"
   },
   {
     "id": 8,
-    "title": "Next.js in Action",
-    "author": "Chris Walker",
-    "description": "Build scalable and optimized applications with Next.js.",
+    "title": "Python for Beginners",
+    "author": "Emily Watson",
+    "description": "A step-by-step guide to learning Python programming.",
     "category": "Tech",
     "available_quantity": 11,
-    "image_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
+    "image_url": "https://m.media-amazon.com/images/I/61ViPUXS8ZL._SY425_.jpg"
   },
   {
     "id": 9,
-    "title": "Quantum World",
-    "author": "Nina Patel",
-    "description": "An introduction to quantum physics explained in simple language.",
+    "title": "Human Anatomy Simplified",
+    "author": "Dr. Hasan Ali",
+    "description": "An easy-to-understand guide to human body systems.",
     "category": "Science",
     "available_quantity": 4,
-    "image_url": "https://images.unsplash.com/photo-1507413245164-6160d8298b31"
+    "image_url": "https://m.media-amazon.com/images/I/61akcqkld5L._SY342_.jpg"
   },
   {
     "id": 10,
-    "title": "The Midnight Letter",
-    "author": "Oliver James",
-    "description": "A mystery novel centered around a forgotten letter and hidden truth.",
+    "title": "Love Beyond Time",
+    "author": "Sharmeen Akter",
+    "description": "A romantic tale that transcends time and space.",
     "category": "Story",
     "available_quantity": 13,
-    "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da"
+    "image_url": "https://m.media-amazon.com/images/I/71E9m4vABxL._SY425_.jpg"
   },
   {
     "id": 11,
-    "title": "Cyber Security Basics",
-    "author": "Kevin Smith",
-    "description": "Learn the foundations of cyber security and online protection.",
+    "title": "Next.js in Action",
+    "author": "Michael Lee",
+    "description": "A practical guide to building modern web apps with Next.js.",
     "category": "Tech",
-    "available_quantity": 8,
-    "image_url": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87"
+    "available_quantity": 6,
+    "image_url": "https://images.manning.com/360/480/resize/book/c/cb7c6f7-482b-45dd-9189-dc9a32d53aa5/Boduch-Next-MEAP-HI.png"
   },
   {
     "id": 12,
-    "title": "Future of AI",
-    "author": "Rachel Adams",
-    "description": "Discover how artificial intelligence is changing the modern world.",
+    "title": "The Future of AI",
+    "author": "Dr. Anika Roy",
+    "description": "Exploring the possibilities and challenges of artificial intelligence.",
     "category": "Science",
-    "available_quantity": 15,
-    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+    "available_quantity": 5,
+    "image_url": "https://rigipublication.com/storage/books/792/5970348891753105337.webp"
   }
 ]
