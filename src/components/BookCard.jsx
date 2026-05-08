@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const BookCard = ({ featured }) => {
   return (
@@ -26,7 +27,9 @@ const BookCard = ({ featured }) => {
         <p className="text-sm text-base-content/70">By {featured?.author}</p>
         {/* Button */}
         <div className="card-actions justify-end mt-5">
-          <button className="btn w-full btn-primary">View Details</button>
+          <Link href={`/all-books/${featured.id}`}>
+            <button className="btn w-full btn-primary">View Details</button>
+          </Link>
         </div>
       </div>
     </div>
