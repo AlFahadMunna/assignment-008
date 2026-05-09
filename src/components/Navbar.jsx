@@ -3,7 +3,7 @@ import logo from "@/assets/nav-logo.png";
 import Image from "next/image";
 
 const Navbar = () => {
-  const login = true;
+  const user = true;
   return (
     <div className="navbar bg-base-100 container mx-auto shadow-sm h-12">
       <div className="navbar-start">
@@ -59,15 +59,26 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        {login ? (
-          <div className="avatar flex gap-4">
-            <div className="ring-primary ring-offset-base-100 w-10 rounded-full ring-2 ring-offset-2">
-              <img src="https://img.daisyui.com/images/profile/demo/spiderperson@192.webp" />
+        {!user && (
+          <ul className="flex gap-3">
+            <button className="btn">
+              <Link href="/login">Login</Link>
+            </button>
+            <button className="btn">
+              <Link href="/register">Register</Link>
+            </button>
+          </ul>
+        )}
+        {user && (
+          <div className="flex gap-4 items-center">
+            <div className="avatar">
+              <div className="ring-primary ring-offset-base-100 w-10 rounded-full ring-2 ring-offset-2">
+                <Image src={user?.image} alt="user" />
+              </div>
+              <p>{user?.name}</p>
             </div>
-            <button className="btn">Logout</button>
+            <button className="btn">SignOut</button>
           </div>
-        ) : (
-          <button className="btn">Login</button>
         )}
       </div>
     </div>
