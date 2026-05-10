@@ -3,7 +3,7 @@ import logo from "@/assets/nav-logo.png";
 import Image from "next/image";
 
 const Navbar = () => {
-  const user = true;
+  const user = false;
   return (
     <div className="navbar bg-base-100 container mx-auto shadow-sm h-12">
       <div className="navbar-start">
