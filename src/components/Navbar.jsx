@@ -1,9 +1,23 @@
+"use client";
+
 import Link from "next/link";
 import logo from "@/assets/nav-logo.png";
 import Image from "next/image";
+import { authClient } from "@/lib/auth-client";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
-  const user = false;
+  const userData = authClient.useSession();
+  const user = userData.data?.user;
+  const router = useRouter();
+
+  const handleLogout = async () => {
+    const { error } = await authClient.signOut();
+    if (error) return toast.error("Logout Failed.");
+    toast.success("Successfully Logout");
+    router.push("/login");
+  };
+
   return (
     <div className="navbar bg-base-100 container mx-auto shadow-sm h-12">
       <div className="navbar-start">
@@ -71,13 +85,15 @@ const Navbar = () => {
         )}
         {user && (
           <div className="flex gap-4 items-center">
-            <div className="avatar">
+            <div className="avatar flex gap-2 items-center text-sm font-bold">
               <div className="ring-primary ring-offset-base-100 w-10 rounded-full ring-2 ring-offset-2">
-                <Image src={user?.image} alt="user" />
+                <Image src={user?.image} width={6} height={6} alt="user" />
               </div>
               <p>{user?.name}</p>
             </div>
-            <button className="btn">SignOut</button>
+            <button onClick={handleLogout} className="btn">
+              Logout
+            </button>
           </div>
         )}
       </div>
