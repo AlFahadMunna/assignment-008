@@ -1,6 +1,6 @@
 const CommunityStats = () => {
   return (
-    <section className="py-10 px-6">
+    <section className="py-10 px-6 container mx-auto">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold">Our Reading Community</h2>
