@@ -34,7 +34,7 @@ const AllBooksPage = async ({ searchParams }) => {
         <SearchBar />
       </div>
 
-      <div className="grid grid-cols-12 gap-4">
+      <div className="md:grid md:grid-cols-12 gap-4 flex flex-col">
         <div className="grid col-span-3 mt-6">
           <Category categories={categories} />
         </div>
