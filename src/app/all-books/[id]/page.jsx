@@ -52,6 +52,7 @@ const BookDetailsPage = async ({ params }) => {
             <p className="text-sm md:text-base">
               Available: {book.available_quantity}
             </p>
+            <button className="btn btn-neutral">Borrow This Book</button>
           </div>
         </div>
       </div>

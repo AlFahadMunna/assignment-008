@@ -5,6 +5,7 @@ import logo from "@/assets/nav-logo.png";
 import Image from "next/image";
 import { authClient } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
+import "animate.css";
 
 const Navbar = () => {
   const userData = authClient.useSession();
@@ -54,7 +55,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link href={"/"}>
+        <Link href={"/"} className="animate__animated animate__bounce">
           {" "}
           <Image src={logo} alt="nav-logo" width={160} />{" "}
         </Link>
