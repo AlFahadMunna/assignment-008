@@ -2,6 +2,9 @@ import { betterAuth } from "better-auth";
 import { mongodbAdapter } from "better-auth/adapters/mongodb";
 import clientPromise from "./mongodb";
 
+import dns from "dns";
+dns.setDefaultResultOrder("ipv4first");
+
 const client = await clientPromise;
 
 export const auth = betterAuth({
